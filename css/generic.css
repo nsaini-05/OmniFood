@@ -1,0 +1,98 @@
+/*************************************/
+/* GENERAL COMPONENTS */
+/*************************************/
+
+.btn:link,
+.btn:visited {
+  font-size: 2rem;
+  font-weight: 600;
+  display: inline-block;
+  padding: 1.6rem 3.2rem;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: #e67e22;
+  color: #fff;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: #cf711f;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: #fff;
+  color: #555;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: #fdf2e9;
+  box-shadow: inset 0 0 0 3px #e67e22;
+}
+
+.margin-right-sm {
+  margin-right: 1.6rem !important;
+}
+
+.heading-primary,
+.heading-secondary {
+  letter-spacing: -0.5px;
+  font-weight: 700;
+  color: #333;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  line-height: 1.05;
+  margin-bottom: 3rem;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+
+.subheading {
+  display: block;
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #cf711f;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
+}
+
+.heading-tertiary {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  /* to make inside elements not to stick on edge when view port get small */
+}
+
+.grid {
+  display: grid;
+  grid-row-gap: 9.6rem;
+  grid-column-gap: 6.4rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
